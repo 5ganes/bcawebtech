@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="bookstore.xsl"?>
+<bookstore>
+	<book>
+		<title>Web Technology</title>
+		<author>Ram Sharma</author>
+		<price>$124</price>
+	</book>
+	<book>
+		<title>Computer Fudamentals</title>
+		<author>Rajesh Hamal</author>
+		<price>$231</price>
+	</book>
+	<book>
+		<title>System Analysis and Design</title>
+		<author>John Sinha</author>
+		<price>$124</price>
+	</book>
+</bookstore>

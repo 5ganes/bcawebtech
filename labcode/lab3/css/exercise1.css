@@ -1,0 +1,110 @@
+body, h1, h2, h3, h4, h5, h6, p, ul{
+	margin: 0; padding: 0;
+}
+/* header css starts */
+	header{
+		display: flex; flex-direction: row;
+	}
+	.logo{
+		width: 48%; padding: 1%; background-color: blue;
+	}
+	.logo img{
+		width: 80px; height: 80px; border-radius: 50%;
+	}
+	.contact{
+		width: 48%; padding: 1%; background-color: green;
+	}
+/* header css ends */
+
+/* navigation block css starts */
+	nav{
+		background-color: red;
+	}
+	nav ul{
+		padding: 0.5%; display: flex; justify-content: space-evenly;
+		flex-wrap: wrap;
+	}
+	nav ul li{
+		list-style: none;
+		margin-right: 2%;
+	}
+	nav ul li a{
+		background-color: yellow;
+		text-decoration: none; display: block; width: 100%; padding: 6px 10%
+	}
+	nav ul li a:hover{
+		background-color: lightblue; color: black;
+	}
+
+	/* submenu css */
+		nav ul li ul{ 
+			display: none; position: absolute; margin-left: -0.4%; 
+			margin-top: -0.4%; width: 200px;
+			visibility: hidden; opacity: 0; transition: all 2s ease;
+		}
+		nav ul li:hover ul{ display: block; visibility: visible; opacity: 1 }
+		
+		nav ul li ul li{ border-bottom: 2px solid red; }
+		nav ul li ul li:last-child{ border-bottom: none; }
+		nav ul li ul li a{ width: 80%; }
+	/* submenu css ends */
+
+/* navigation block css ends */
+
+/* section block css starts */
+	section{
+		display: flex;
+	}
+	.sidebar{
+		width: 23%; padding: 1%; background-color: blue;
+	}
+	.navigation h2{
+		color: red
+	}
+	.navigation ul li{
+		list-style: none; border-bottom: 2px solid yellow;
+	}
+	.navigation ul li:last-child{ border-bottom: none; }
+	.navigation ul li a{
+		color: white; text-decoration: none; display: block; width: 90%;
+		background-color: red; padding: 3% 5%;
+	}
+	.navigation ul li a:hover{ background-color: lightblue; color: black; }
+
+	/* navigation submenu css */
+		.navigation ul li ul{ 
+			display: none; position: absolute; width: 200px;
+			margin-left: 210px; margin-top: -33px;
+		}
+		.navigation ul li:hover ul{ display: block; }		
+	/* navigation submenu css ends */
+
+	.main{
+		width: 73%; padding: 1%; background-color: green;
+	}
+/* section block css ends */
+
+footer{
+	background-color: orange; text-align: center; padding : 2%;
+}
+
+/* resopsnvie media queries at the end of css file */
+	@media screen and (max-width: 600px){
+		header{ flex-direction: column; }
+		.logo, .contact{ width: 96%; padding: 4% 2%; text-align: center; }
+
+		nav ul{ flex-direction: column; text-align: center; }
+		nav ul li a{ width: 80%; }
+		section{ flex-direction: column; }
+		.sidebar, .main{ width: 96%; padding: 2%; }
+	}
+/* resopsnvie media queries at the end of css file ends */
+
+
+
+
+
+
+
+
+

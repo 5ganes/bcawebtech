@@ -1,0 +1,46 @@
+body, h1, h2, h3, h4, h5, h6, p, ul{
+	margin: 0; padding: 0;
+}
+.clear{
+	clear: both;
+}
+header{
+	background-color: blue; padding: 1%;
+}
+header img{
+	width: 90px; height: 90px; border-radius:50%;
+}
+header img:first-child{
+	float: left;
+}
+header img:nth-child(2){
+	float: right;
+}
+section{
+	background-color: red; padding: 2%;
+}
+.wel-title{
+	margin-bottom: 1%;
+}
+.wel-desc{
+	color: white;
+}
+
+/* latset news style */
+.latest-news{
+	background-color: lightgreen; padding: 2%;
+}
+.latest-news h2{
+	text-decoration: underline;
+}
+.latest-news ul{
+	margin-left: 2%;
+}
+.latest-news ul li{
+	list-style: square;
+}
+/* latest news style ends */
+
+footer{
+	background-color: green; text-align: center; padding: 3%;
+}

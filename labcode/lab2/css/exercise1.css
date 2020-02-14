@@ -1,0 +1,70 @@
+body, h1, h2, h3, h4, h5, h6, p, ul{
+	margin: 0; padding: 0;
+}
+.clear{
+	clear: both;
+}
+/* header css starts */
+	header{
+		background-color: yellow;
+	}
+	.logo{
+		width: 48%; padding: 1%; background-color: blue; float: left;
+	}
+	.logo img{
+		width: 80px; height: 80px; border-radius: 50%;
+	}
+	.contact{
+		width: 48%; padding: 1%; background-color: green; float: right;
+	}
+/* header css ends */
+
+/* navigation block css starts */
+	nav{
+		background-color: red;
+	}
+	nav ul{
+		padding: 0.5%;
+	}
+	nav ul li{
+		list-style: none; float: left;
+		margin-right: 2%;
+	}
+	nav ul li a{
+		background-color: yellow;
+		text-decoration: none; display: block; width: 100%; padding: 8px;
+	}
+	nav ul li a:hover{
+		background-color: lightblue; color: black;
+	}
+/* navigation block css ends */
+
+/* section block css starts */
+	section{
+		display: flex;
+	}
+	.sidebar{
+		width: 23%; padding: 1%; background-color: blue;
+	}
+	.sidebar h2{
+		color: red
+	}
+	.sidebar ul li{
+		padding: 2%;
+	}
+	.sidebar ul li a{
+		color: white; text-decoration: none;
+	}
+	.main{
+		width: 73%; padding: 1%; background-color: green;
+	}
+/* section block css ends */
+
+
+
+
+
+
+
+
+
